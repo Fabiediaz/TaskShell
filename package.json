@@ -1,0 +1,33 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "Yours tool for task in your terminal :)",
+  "main": "index.js",
+  "bin": {
+    "task": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "Fabiel Dìaz Valdés",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "dotenv": "^16.0.0",
+    "inquirer": "^8.2.0",
+    "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
