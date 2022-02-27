@@ -1,14 +1,14 @@
 {
-  "name": "task",
+  "name": "TaskShell",
   "version": "1.0.0",
   "description": "Yours tool for task in your terminal :)",
   "main": "index.js",
   "bin": {
-    "task": "./src/index.js"
+    "TaskShell": "./src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Fabiediaz/Task/"
+    "url": "https://github.com/Fabiediaz/TaskShell/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
