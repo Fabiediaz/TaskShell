@@ -14,7 +14,7 @@
     "lint": "eslint"
   },
   "keywords": [],
-  "author": "Fabiel Dìaz Valdés",
+  "author": "favieldiazvaldes",
   "license": "ISC",
   "dependencies": {
     "commander": "^9.0.0",
